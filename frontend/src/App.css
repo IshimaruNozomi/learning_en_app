@@ -1,0 +1,64 @@
+body {
+    background-color: #f8fbff; /* very light blue */
+    color: #1e3a8a; /* dark blue */
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #1e40af;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 120, 255, 0.1);
+  }
+  
+  input, button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #93c5fd;
+    box-shadow: 0 0 0 3px #bfdbfe;
+  }
+  
+  button {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #93c5fd;
+  }
+  
+  .card {
+    background-color: #eff6ff;
+    padding: 1rem;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(30, 64, 175, 0.1);
+  }
+  
+  .chart-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
